@@ -1,4 +1,4 @@
-M registry.access.redhat.com/rhscl/httpd-24-rhel7
+FROM registry.access.redhat.com/rhscl/httpd-24-rhel7
 USER root
 MAINTAINER student15
 ADD ./etc/httpd/conf/httpd.conf /etc/httpd/conf
